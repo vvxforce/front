@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.js": "/front/static/js/main.7e2dd566.chunk.js",
-    "main.js.map": "/front/static/js/main.7e2dd566.chunk.js.map",
+    "main.css": "/front/static/css/main.473a5e69.chunk.css",
+    "main.js": "/front/static/js/main.9591b850.chunk.js",
+    "main.js.map": "/front/static/js/main.9591b850.chunk.js.map",
     "runtime-main.js": "/front/static/js/runtime-main.92bfcbc2.js",
     "runtime-main.js.map": "/front/static/js/runtime-main.92bfcbc2.js.map",
-    "static/js/2.264e89c6.chunk.js": "/front/static/js/2.264e89c6.chunk.js",
-    "static/js/2.264e89c6.chunk.js.map": "/front/static/js/2.264e89c6.chunk.js.map",
+    "static/js/2.634dd913.chunk.js": "/front/static/js/2.634dd913.chunk.js",
+    "static/js/2.634dd913.chunk.js.map": "/front/static/js/2.634dd913.chunk.js.map",
     "index.html": "/front/index.html",
-    "static/js/2.264e89c6.chunk.js.LICENSE.txt": "/front/static/js/2.264e89c6.chunk.js.LICENSE.txt",
+    "static/css/main.473a5e69.chunk.css.map": "/front/static/css/main.473a5e69.chunk.css.map",
+    "static/js/2.634dd913.chunk.js.LICENSE.txt": "/front/static/js/2.634dd913.chunk.js.LICENSE.txt",
+    "static/media/font.css": "/front/static/media/Roboto-Thin.1711b41f.ttf",
     "static/media/bg.591b67e3.jpeg": "/front/static/media/bg.591b67e3.jpeg",
     "static/media/box1.cecb557c.png": "/front/static/media/box1.cecb557c.png",
-    "static/media/box2.47b82015.png": "/front/static/media/box2.47b82015.png"
+    "static/media/box2.47b82015.png": "/front/static/media/box2.47b82015.png",
+    "static/media/input-main.728fd70a.png": "/front/static/media/input-main.728fd70a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.92bfcbc2.js",
-    "static/js/2.264e89c6.chunk.js",
-    "static/js/main.7e2dd566.chunk.js"
+    "static/js/2.634dd913.chunk.js",
+    "static/css/main.473a5e69.chunk.css",
+    "static/js/main.9591b850.chunk.js"
   ]
 }
