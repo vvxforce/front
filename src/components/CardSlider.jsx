@@ -162,7 +162,7 @@ const styles = {
   },
 
   content: {
-    height: 280,
+    height: 340,
     position: "relative",
   },
 

@@ -27,8 +27,9 @@ const list = [
 ];
 
 const Container = styled.div`
-  background-image: url(${img}) cover;
+  background-image: url(${img});
   min-height: 100vh;
+  background-size: cover;
 `;
 
 const Text = styled.div`
@@ -58,7 +59,7 @@ color: #0D3332;
 `;
 
 const InputMain = styled.div`
-padding: 0 3vw;
+padding: 10vh 3vw;
 display: flex;
 flex-direction: column;
 align-items: flex-end;

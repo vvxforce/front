@@ -13,7 +13,7 @@ import box2 from '../img/box2.png';
 const Container = styled.div`
   background-image: url(${img});
   min-height: 100vh;
-  
+  background-size: cover;
 `;
 
 

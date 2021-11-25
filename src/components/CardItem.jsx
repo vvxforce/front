@@ -24,8 +24,8 @@ const CardItem = ({ name, style, cartinka, item }) => (
   <Item>
   <div
     style={{
-      width: 200,
-      height: 250,
+      width: 240,
+      height: 300,
       display: "flex",
       flexDirection: "column",
       justifyContent: "flex-end",

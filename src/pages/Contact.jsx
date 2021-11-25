@@ -12,6 +12,7 @@ import img from '../img/bg.jpeg';
 const Container = styled.div`
   background-image: url(${img});
   min-height: 100vh;
+  background-size: cover;
 `;
 
 const Text = styled.div`
