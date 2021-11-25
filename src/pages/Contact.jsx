@@ -15,7 +15,7 @@ const Container = styled.div`
 `;
 
 const Text = styled.div`
-padding: 10vh 5vw;
+padding: 25vh 5vw;
  display:flex;
  justify-content: left;
  font-size: 16px;

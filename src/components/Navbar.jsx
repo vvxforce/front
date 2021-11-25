@@ -5,15 +5,15 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import logo from "../img/logo.png";
+import logo from "../img/logo_black.png";
+import logo2 from "../img/logo_main.png";
 
 const Container = styled.div`
-  height: 60px;
+  height: 5vh;
   ${mobile({ height: "50px" })}
 `;
 
 const Wrapper = styled.div`
-  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,9 +21,7 @@ const Wrapper = styled.div`
 `;
 
 const Left = styled.div`
-  flex: 1;
-  display: flex;
-  align-items: center;
+
 `;
 
 const Language = styled.span`
@@ -55,18 +53,27 @@ const Logo = styled.h1`
   ${mobile({ fontSize: "24px" })}
 `;
 const Right = styled.div`
+  margin-right: 5vw;
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
   ${mobile({ flex: 2, justifyContent: "center" })}
 `;
 
 const MenuItem = styled.div`
+  font-family: Lemonmilk;
+  color: #0D3332;
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
-  color: #FFF;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 1.25rem;
   cursor: pointer;
   margin-left: 25px;
+  text-transform: uppercase;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
@@ -76,8 +83,8 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Link to="/">
-        <img src={logo}/>
+          <Link to="/home">
+        <img src={logo2} width="150vw"/>
           </Link>
         </Left>
         <Right>

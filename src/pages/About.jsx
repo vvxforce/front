@@ -13,14 +13,15 @@ import box2 from '../img/box2.png';
 const Container = styled.div`
   background-image: url(${img});
   min-height: 100vh;
+  
 `;
 
 
 const Text = styled.div`
-padding: 10vh 5vw;
- display:flex;
- justify-content: left;
- font-size: 16px;
+padding: 25vh 5vw;
+display:flex;
+align-items: flex-start;
+font-size: 16px;
 `;
 
 const SubText = styled.div`
@@ -32,10 +33,11 @@ const SubText = styled.div`
 
 const About = () => {
   return (
-    <Container>
-      <Navbar/>
-      <Text>Here will be information about White Angels</Text>
-      <Text><img src={box2}/></Text>
+     
+      <Container>
+         <Navbar/>
+      <Text>Here will be information about White Angels
+      <img src={box2}/></Text>
       </Container>
   );
 };

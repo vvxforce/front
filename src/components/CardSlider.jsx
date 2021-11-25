@@ -1,6 +1,12 @@
 import * as React from "react";
 import arrowL from '../img/arrowL.png';
 import arrowR from '../img/arrowR.png';
+import styled from "styled-components";
+
+
+const Container = styled.div`
+margin-top: 1vh;
+`;
 
 
 export default class CardSlider extends React.Component {
@@ -78,6 +84,7 @@ export default class CardSlider extends React.Component {
     } = this.props;
     
     return (
+      <Container>
       <div style={{ ...styles.wrapper, style }}>
         <div style={{ ...styles.content, width: boxWidth }}>
           {list.map((data, index) => {
@@ -118,6 +125,7 @@ export default class CardSlider extends React.Component {
           </a>
           </div> 
       </div>
+      </Container>
     );
   }
 
@@ -154,7 +162,7 @@ const styles = {
   },
 
   content: {
-    height: 400,
+    height: 280,
     position: "relative",
   },
 

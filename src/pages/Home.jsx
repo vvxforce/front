@@ -13,6 +13,8 @@ import CardSlider from "../components/CardSlider"
 import box1 from '../img/box1.png';
 import box2 from '../img/box2.png';
 import CardItem from "../components/CardItem"
+import '../font/font.css';
+import Input from '../img/input-main.png'
 
 const list = [
   { name: "Indigo", cartinka: box2 },
@@ -26,38 +28,53 @@ const list = [
 
 const Container = styled.div`
   background-image: url(${img});
-  height: 100%;
+  min-height: 100vh;
 `;
 
 const Text = styled.div`
+text-transform: uppercase;
+font-family: Roboto;
  display:flex;
  justify-content: center;
- font-size: 48px;
+ font-size: 2.5rem;
+`;
+
+const TextLine1 = styled.div`
+ margin-top: 7vh;
+ display:flex;
+ font-family: Lemonmilk;
+ justify-content: center;
+ font-size: 2.5rem;
 `;
 
 const SubText = styled.div`
-margin-top: 10vh;
+margin-top: 2vh;
 text-align: center;
 font-style: normal;
 font-weight: bold;
-font-size: 48px;
-line-height: 50px;
+font-size: 2.5rem;
 letter-spacing: 0.1em;
-
 color: #0D3332;
+`;
+
+const InputMain = styled.div`
+padding: 0 3vw;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
 `;
 
 const Home = (item, products) => {
   return (
     <Container>
       <Navbar/>
-      <Text>Gift</Text>
+      <TextLine1>Gift</TextLine1>
       <Text>Collection</Text>
       <CardSlider
       list={list}
       renderItem={CardItem}
       width={280}
-      boxWidth={1000}
+      boxWidth={800}
       opacity={1}
       scale={0.85}
       disableNext={false}
@@ -69,6 +86,7 @@ const Home = (item, products) => {
     />
       
       <SubText>White Angels</SubText>
+      <InputMain><img src={Input} width="20%"/></InputMain>
       </Container>
   );
 };
