@@ -27,7 +27,7 @@ const list = [
 ];
 
 const Container = styled.div`
-  background-image: url(${img});
+  background-image: url(${img}) cover;
   min-height: 100vh;
 `;
 
