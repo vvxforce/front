@@ -13,6 +13,7 @@ import {
   Switch,
   Route,
   Redirect,
+  HashRouter
 } from "react-router-dom";
 import Success from "./pages/Success";
 import { useSelector } from "react-redux";
@@ -20,7 +21,7 @@ import { useSelector } from "react-redux";
 const App = () => {
   const user = useSelector((state) => state.user.currentUser);
   return (
-    <Router>
+    <HashRouter>
       <Switch>
       <Route exact path="/">
           <Form />
@@ -51,7 +52,7 @@ const App = () => {
           <Contact/>
           </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 };
 
